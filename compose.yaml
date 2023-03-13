@@ -1,0 +1,17 @@
+services:
+  frontend:
+    image: selenium/standalone-chrome:4.8.1-20230306
+    ports:
+      - "4444:4444"
+      - "7900:7900"
+    shm_size: 2g
+    environment:
+      SE_VNC_NO_PASSWORD: 1
+
+volumes: {}
+
+configs: {}
+
+secrets: {}
+
+networks: {}
