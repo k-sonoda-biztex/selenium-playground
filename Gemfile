@@ -5,3 +5,5 @@ source 'https://rubygems.org'
 # gem "rails"
 
 gem 'selenium-webdriver', '~> 4.8'
+
+gem 'rubocop', '~> 1.48'
