@@ -1,5 +1,7 @@
 # Get started
 
 ```sh
-docker compose up
+docker compose up -d
+# frontend
+bundle exec ruby src/main.rb
 ```

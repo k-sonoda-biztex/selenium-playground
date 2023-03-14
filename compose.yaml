@@ -1,5 +1,5 @@
 services:
-  frontend:
+  backend:
     image: selenium/standalone-chrome:4.8.1-20230306
     ports:
       - "4444:4444"
